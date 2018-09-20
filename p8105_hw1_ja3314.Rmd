@@ -32,7 +32,7 @@ The mean calculation only works for the numeric and logical vectors. The charact
 
 
 **Converting logical, character, and factor vectors into numeric vectors:**
-```{r, eval = FALSE}
+```{r, results="hide" , warning=FALSE}
 as.numeric(uniform_dist_df$vec_logical)
 as.numeric(uniform_dist_df$vec_char)
 as.numeric(uniform_dist_df$vec_factor)
